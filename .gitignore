@@ -1,0 +1,8 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+.runtime/
+.tools/
+blender-portable.zip
+web/*.import
+*.blend1
