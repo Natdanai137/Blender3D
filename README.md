@@ -16,7 +16,12 @@
 - `assets/MeleeLib.res` และ `assets/ShooterLib.res` — คลังท่าที่ใช้ในเดโม
 - `assets/Mako-Quaternius-CC0.glb` — โมเดลประกอบฉาก
 - `demo.tscn` และ `scripts/demo.gd` — ฉากและโค้ดควบคุม
-- `web/` — ไฟล์ Web export พร้อมเปิดจากเซิร์ฟเวอร์ HTTP
+- `web/` — ไฟล์ Web export สำหรับทดสอบด้วยเซิร์ฟเวอร์ HTTP
+- `docs/` — สำเนา Web export สำหรับ GitHub Pages แบบ `main` + `/docs`
+
+### ตั้งค่า GitHub Pages
+
+ใน GitHub ไปที่ **Settings → Pages → Build and deployment** แล้วเลือก **Deploy from a branch**, Branch `main`, Folder `/docs` จากนั้นกด **Save** เว็บจะเปิดที่ [natdanai137.github.io/Blender3D](https://natdanai137.github.io/Blender3D/) หลังระบบเผยแพร่เสร็จ
 
 ## เปิดใน Godot
 
